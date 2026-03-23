@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essence de Nuit | Product Detail</title>
+    <meta
+      name="description"
+      content="Shop the signature Essence de Nuit fragrance with luxury mobile-first UX."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell page-shell">
+      <header class="site-header compact-header">
+        <a class="brand-mark" href="index.html">ESSENCE DE NUIT</a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="shop.html">Shop</a>
+          <a href="about.html">Our Story</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+        <a class="nav-cta" href="#purchase">Add to Cart</a>
+      </header>
+
+      <main class="product-page">
+        <section class="product-layout">
+          <div class="product-gallery reveal-up">
+            <div class="product-gallery-main visual-noir"></div>
+            <div class="thumb-row">
+              <button class="thumb active" type="button" aria-label="Front bottle view"></button>
+              <button class="thumb thumb-alt" type="button" aria-label="Bottle close-up"></button>
+              <button class="thumb thumb-third" type="button" aria-label="Packaging view"></button>
+            </div>
+          </div>
+
+          <div class="product-details reveal-up delay-1" id="purchase">
+            <p class="eyebrow">Signature fragrance</p>
+            <h1>Essence de Nuit</h1>
+            <p class="price">₹13,500</p>
+            <p class="product-description">
+              A sensual amber-oud composition that opens with saffron heat, settles into rose
+              and vanilla orchid, and leaves a magnetic trail of resinous depth.
+            </p>
+
+            <div class="size-selector" aria-label="Choose size">
+              <button class="size-pill active" type="button">50ml</button>
+              <button class="size-pill" type="button">100ml</button>
+            </div>
+
+            <button class="button button-gold button-full" type="button">Add to Cart</button>
+
+            <div class="info-stack">
+              <details open>
+                <summary>Fragrance notes</summary>
+                <p>Top: bergamot, saffron. Heart: rose, vanilla orchid. Base: oud, amber, musk.</p>
+              </details>
+              <details>
+                <summary>Delivery info</summary>
+                <p>Complimentary shipping in India. International delivery in 5–8 business days.</p>
+              </details>
+              <details>
+                <summary>Why it converts</summary>
+                <p>Thumb-friendly actions, sticky mobile CTA, and concise luxury storytelling reduce friction.</p>
+              </details>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div class="mobile-sticky-bar">
+        <div>
+          <span>Essence de Nuit</span>
+          <strong>₹13,500</strong>
+        </div>
+        <button class="button button-gold" type="button">Add to Cart</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
